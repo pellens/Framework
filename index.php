@@ -10,11 +10,11 @@
 <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en" xmlns:fb="https://www.facebook.com/2008/fbml"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en" xmlns:fb="https://www.facebook.com/2008/fbml"> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
- 
+
     <head>
-    
-    	<title>Title</title>
-    	
+
+        <title>Title</title>
+
         <!-- SEO -->
         <meta name="keywords"                   content="">
         <meta name="description"                content="">
@@ -61,8 +61,9 @@
         
         <!-- CSS FILES -->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="css/shame.css"/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="css/shame.css"/>
 
         <!-- EXTERNAL CSS -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
@@ -73,14 +74,14 @@
         <![endif]-->
  
         <!-- LATEST JQUERY + MODERNIZR -->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" charset="utf-8"></script>
-        <script type="text/javascript" src="js/modernizr.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.1.9.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/modernizr.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/custom.js"></script>
         
         <!-- MOSTLY DELETE THESE -->
-        <script type="text/javascript" src="js/jpanelmenu.js"></script>
-        <script type="text/javascript" src="js/pretify.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/pretify.js"></script>
     
     </head>
     
