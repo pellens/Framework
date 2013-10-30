@@ -1,9 +1,6 @@
-Box Sizing
+## Polyfills - Box Sizing
 
-https://github.com/Schepp/box-sizing-polyfill
-Warning: .htc files not supported on any server! Check first!
+Warning: .htc files not supported on any server! Check first! https://github.com/Schepp/box-sizing-polyfill for more info.
 
-----------------------
-
-- boxsizing.htc : place in the root of the server!
-- .htaccess 	: add support to .htc-extensies
+* boxsizing.htc : place in the root of the server!
+* .htaccess 	: add support to .htc-extensies
