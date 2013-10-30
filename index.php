@@ -65,13 +65,9 @@
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
 
-        <!-- EXTERNAL CSS -->
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- FONT AWESOME -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-
-        <!--[if lt IE 8]>
-        <link rel="stylesheet" type="text/css" href="css/grid_ie7.css"/>
-        <![endif]-->
+        <!--[if IE 7]><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css"><![endif]-->
  
         <!-- LATEST JQUERY + MODERNIZR -->
         <script type="text/javascript" charset="utf-8" src="js/jquery.1.9.0.js"></script>
