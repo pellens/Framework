@@ -1,0 +1,25 @@
+.prettyprint {
+  padding: 8px;
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+code,pre{padding:0 3px 2px;font-family:Menlo,Monaco,"Courier New",monospace;font-size:13px;color:#333333;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code { background-color: #EEE; padding: 3px 5px; border:1px solid #CCC; font-size:11px; margin:0 3px;}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+  list-style: decimal !important;
+} 
+ol.linenums li {
+  padding-left: 12px;
+  color: #407091;
+  line-height: 22px;
+  text-shadow: 0 1px 0 #fff;
+  font-family: "Courier New";
+}

@@ -1,0 +1,198 @@
+
+/* IMPORTS */
+
+@import url("reset.css");
+@import url("grid.less");
+@import url("pretify.css");
+@import url("functions.less");
+
+
+
+
+html, body {
+	height:100%;
+	width:100%;
+}
+body {
+	background-color: #F4F4F4;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	overflow:auto;
+	overflow-x:hidden !important;
+	position:relative;
+}
+a {
+	color:#2980b9;
+}
+strong {
+	font-weight: bold;
+}
+
+.menulist {
+	background-color: #222;
+	display:none;
+	/*width:250px;
+	
+	position:fixed;
+	height:100%;
+	top:0;
+	left:0;
+	margin-left: -250px;
+	.transition();*/
+}
+
+
+
+
+header {
+	background:#e74c3c;
+	height:60px;
+	position:relative;
+
+	.menu {
+		background-color: #c0392b;
+		position: absolute;
+		left:0;
+		top:0;
+		width:60px;
+		height:60px;
+		text-align: center;
+		line-height: 60px;
+		color:#FFF;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	h1 {
+		text-align: center;
+		line-height: 60px;
+		color:#FFF;
+		font-weight: 600;
+		font-size: 20px;
+	}
+}
+
+.menulist {
+
+	ul {
+
+		margin-top: 10px;
+
+		li {
+
+			a {
+
+				color:#FFF;
+				line-height: 35px;
+				text-decoration: none;
+				padding-left: 20px;
+			}
+
+			ul {
+
+				margin-top:0;
+
+				li {
+
+					margin-left: 10px;
+
+					a {
+						color:#CCC;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.sub {
+	background-color: #34495e;
+	text-align: center;
+	height:200px;
+
+	ul {
+
+		margin-top: 80px;
+		float:left;
+		width:100%;
+
+		li {
+			display: inline-block;
+			height:50px;
+
+			a {
+				line-height: 30px;
+				color:#FFF;
+				padding:15px 20px;
+				margin:0 10px;
+				text-decoration: none;
+				.border-radius(3px);
+				font-size: 16px;
+			}
+			a.green { background-color: #1abc9c; }
+			a.blue  { background-color: #3498db; }
+		}
+	}
+}
+
+article {
+
+	margin-top: 30px;
+
+	pre {
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 60px;
+		margin-top: 15px;
+	}
+
+	h3 {
+		font-size: 22px;
+		line-height: 60px;
+		color:#2980b9;
+		margin-top: 40px;
+	}
+
+	p {
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+
+	table.custom {
+		border:1px solid #DDD;
+		width:100%;
+		background-color: #FFF;
+		border-left: 3px solid #e74c3c;
+		margin-bottom: 30px;
+		.border-radius(3px);
+		.fade(fadein,2s);
+
+		tr {
+
+			td {
+				border:1px solid #DDD;
+				line-height:34px;
+				padding-left:7px;
+			}
+			td.code {
+				width:120px;
+
+				code {
+					background-color: #F4F4F4;
+					border:1px solid #DDD;
+					color:#c0392b;
+				}
+			}
+			td.default {
+				width:150px;
+				font-weight: 600;
+				color:#16a085;
+			}
+		}
+	}
+}
