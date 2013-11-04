@@ -12,19 +12,20 @@
 
     <head>
 
+        <meta http-equiv="Content-Type"    content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
         <title>Title</title>
 
         <!-- SEO -->
-        <meta name="keywords"                   content="">
-        <meta name="description"                content="">
-        <meta name="language"                   content="">
-        <meta name="author"                     content="">     <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
-        <meta name="google"                     content="">   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
-        <meta name="google-site-verification"   content="">   <!-- GOOGLE WEBMASTERTOOLS -->
-        <meta name="robots"                     content="">   <!-- index | follow | noindex | nofollow -->
-        <meta name="revisit-after"              content="7 days">
-        
-        <meta http-equiv="Content-Type"         content="text/html; charset=utf-8">
+        <meta name="keywords"                 content="">
+        <meta name="description"              content="">
+        <meta name="language"                 content="">
+        <meta name="author"                   content="">   <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
+        <meta name="google"                   content="">   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
+        <meta name="google-site-verification" content="">   <!-- GOOGLE WEBMASTERTOOLS -->
+        <meta name="robots"                   content="">   <!-- index | follow | noindex | nofollow -->
+        <meta name="revisit-after"            content="7 days">
 
         <!-- BLOG: Een avatar koppelen in de Google resultaten op deze manier -->
         <link rel="author" href="https://plus.google.com/<google-id-auteur>/posts"/>
@@ -41,12 +42,11 @@
         <meta property="og:site_name"   content="" />
  
         <!-- STYLE -->
-        <link rel="icon"                type="image/x-icon" href="" />
-        <link rel="shortcut icon"       type="image/x-icon" href="" />
+        <link rel="shortcut icon" type="image/x-icon" href="" />
  
         <!-- IPHONE SPECS -->
-        <link rel="apple-touch-startup-image"              href="" />           <!-- START IMAGE     : 320x460px - PNG -->
-        <link rel="apple-touch-icon"                       href=""/>            <!-- HOMESCREEN ICON : 114x114px - PNG -->
+        <link rel="apple-touch-startup-image" href="" />           <!-- START IMAGE     : 320x460px - PNG -->
+        <link rel="apple-touch-icon"          href=""/>            <!-- HOMESCREEN ICON : 114x114px - PNG -->
 
         <!-- INDIEN RESPONSIVE WEBSITE / OPTIONEEL ! -->
         <meta name="apple-mobile-web-app-status-bar-style" content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
