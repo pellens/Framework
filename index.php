@@ -3,7 +3,6 @@
     $less = new lessc;
     $less->checkedCompile("less/style.less", "css/style.css");
 ?>
-
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en" xmlns:fb="https://www.facebook.com/2008/fbml"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en" xmlns:fb="https://www.facebook.com/2008/fbml"> <![endif]-->
@@ -18,12 +17,12 @@
         <!-- SEO -->
         <meta name="keywords"                   content="">
         <meta name="description"                content="">
-        <meta name="language"                   content="" />
+        <meta name="language"                   content="">
         <meta name="author"                     content="">     <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
-        <meta name="google"                     content="" />   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
-        <meta name="google-site-verification"   content="" />   <!-- GOOGLE WEBMASTERTOOLS -->
-        <meta name="robots"                     content="" />   <!-- index | follow | noindex | nofollow -->
-        <meta name="revisit-after"              content="7 days" />
+        <meta name="google"                     content="">   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
+        <meta name="google-site-verification"   content="">   <!-- GOOGLE WEBMASTERTOOLS -->
+        <meta name="robots"                     content="">   <!-- index | follow | noindex | nofollow -->
+        <meta name="revisit-after"              content="7 days">
         
         <meta http-equiv="Content-Type"         content="text/html; charset=utf-8">
 
