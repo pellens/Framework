@@ -1,9 +1,11 @@
 ## Twitter Bootstrap (2.3.2)
-Implementation of the [Twitter Bootstrap](http://getbootstrap.com/2.3.2/). Included following components:
+Implementation of the [Twitter Bootstrap](http://getbootstrap.com/2.3.2/).
+Including following components:
 
 #### CSS
 * Tables
 * Forms
+* Buttons
 
 #### Javascript
 * Dropdowns
