@@ -1,7 +1,7 @@
-- [X ] Add basic Apple-touch-icon html
-- [ ] Add basic Apple-touch-icon (76x76 - PNG)
-- [ ] Add basic Apple-touch-icon (120x120 - PNG)
-- [ ] Add basic Apple-touch-icon (152x152 - PNG)
+[X] Add basic Apple-touch-icon html
+[ ] Add basic Apple-touch-icon (76x76 - PNG)
+[ ] Add basic Apple-touch-icon (120x120 - PNG)
+[ ] Add basic Apple-touch-icon (152x152 - PNG)
 
 ## Twitter Bootstrap (2.3.2)
 Implementation of the [Twitter Bootstrap](http://getbootstrap.com/2.3.2/).
