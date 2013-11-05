@@ -84,21 +84,12 @@
 	opacity: @op/100;
 }
 
-.fade( @fade:fadein, @time:0.5s ) {
-			animation: @fade @time;
-       -moz-animation: @fade @time;
-    -webkit-animation: @fade @time;
-    	 -o-animation: @fade @time;
+.background-cover() {
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
 }
-		@keyframes fadein  { from { opacity:0; } to { opacity:1; } }
-   @-moz-keyframes fadein  { from { opacity:0; } to { opacity:1; } }
-@-webkit-keyframes fadein  { from { opacity:0; } to { opacity:1; } }
-	 @-o-keyframes fadein  { from { opacity:0; } to { opacity:1; } }​
-
-		@keyframes fadeout { from { opacity:1; } to { opacity:0; } }
-   @-moz-keyframes fadeout { from { opacity:1; } to { opacity:0; } }
-@-webkit-keyframes fadeout { from { opacity:1; } to { opacity:0; } }
-	 @-o-keyframes fadeout { from { opacity:1; } to { opacity:0; } }​
 
 
 /* Transition
