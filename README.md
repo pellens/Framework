@@ -1,3 +1,4 @@
+- [X ] Add basic Apple-touch-icon html
 - [ ] Add basic Apple-touch-icon (76x76 - PNG)
 - [ ] Add basic Apple-touch-icon (120x120 - PNG)
 - [ ] Add basic Apple-touch-icon (152x152 - PNG)
