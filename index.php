@@ -18,10 +18,10 @@
         <title>Title</title>
 
         <!-- SEO -->
-        <meta name="keywords"                 content="">
-        <meta name="description"              content="">
-        <meta name="language"                 content="">
-        <meta name="author"                   content="">   <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="language" content="">
+        <meta name="author" content="">   <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
         <meta name="google"                   content="">   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
         <meta name="google-site-verification" content="">   <!-- GOOGLE WEBMASTERTOOLS -->
         <meta name="robots"                   content="">   <!-- index | follow | noindex | nofollow -->
@@ -29,42 +29,37 @@
 
         <!-- BLOG: Een avatar koppelen in de Google resultaten op deze manier -->
         <link rel="author" href="https://plus.google.com/<google-id-auteur>/posts"/>
-
-        <!-- FACEBOOK -->
+		
+		<!-- OPEN GRAPH / SOCIAL MEDIA -->
         <meta property="fb:app_id"      content="" />
- 
-        <!-- OPEN GRAPH / SOCIAL MEDIA -->
-        <meta property="og:title"       content="" />
-        <meta property="og:type"        content="" />
-        <meta property="og:url"         content="" />
-        <meta property="og:image"       content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
         <meta property="og:description" content="" />
-        <meta property="og:site_name"   content="" />
+        <meta property="og:site_name" content="" />
  
         <!-- STYLE -->
         <link rel="shortcut icon" type="image/x-icon" href="" />
  
-        <!-- IPHONE SPECS -->
+        <!-- MOBILE -->
         <link rel="apple-touch-startup-image" href="" />           <!-- START IMAGE     : 320x460px - PNG -->
         <link rel="apple-touch-icon" sizes="76x76"   href="images/core/touch-icon-ipad.png">
         <link rel="apple-touch-icon" sizes="120x120" href="images/core/touch-icon-iphone-retina.png">
         <link rel="apple-touch-icon" sizes="152x152" href="images/core/touch-icon-ipad-retina.png">
-
-        <!-- INDIEN RESPONSIVE WEBSITE / OPTIONEEL ! -->
+		
         <meta name="apple-mobile-web-app-status-bar-style" content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
-        <meta name="apple-mobile-web-app-capable"          content="" />        <!-- FULL SCREEN?    : yes | no -->
- 
-        <!-- MOBILE -->
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
- 
+        <meta name="apple-mobile-web-app-capable" content="" />        <!-- FULL SCREEN?    : yes | no -->
+ 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
         <!-- HTML5 SHIV -->
         <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         
         <!-- CSS FILES -->
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
         <!-- FONT AWESOME -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
@@ -83,7 +78,7 @@
     </head>
     
     <body>
-
+		
     </body>
  
 </html>
