@@ -21,11 +21,11 @@
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="language" content="">
-        <meta name="author" content="">   <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
-        <meta name="google"                   content="">   <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
+        <meta name="author" content="">                     <!-- VOORAL BELANGRIJK BIJ BLOGS / COMMUNITIES : OVEREENSTEMMEN MET GOOGLE+ NAAM-->
+        <meta name="google" content="">                     <!-- MAG DE SITE NIET VERTAALD WORDEN? notranslate TOEVOEGEN -->
         <meta name="google-site-verification" content="">   <!-- GOOGLE WEBMASTERTOOLS -->
-        <meta name="robots"                   content="">   <!-- index | follow | noindex | nofollow -->
-        <meta name="revisit-after"            content="7 days">
+        <meta name="robots" content="">                     <!-- index | follow | noindex | nofollow -->
+        <meta name="revisit-after" content="7 days">
 
         <!-- BLOG: Een avatar koppelen in de Google resultaten op deze manier -->
         <link rel="author" href="https://plus.google.com/<google-id-auteur>/posts"/>
