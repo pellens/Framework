@@ -79,6 +79,36 @@
     </head>
     
     <body>
+
+        <section class="container_12 newsfeed tiles">
+            <? for($i=1;$i<=8;$i++):?>
+            <div class="item grid_3 mobile_6">
+                <div class="image"><a href="#"><img src="http://placehold.it/220x125"/></a></div>
+                <div class="content">
+                    <h3><a href="#">Mostly a long title of newsmessage numero <?=$i;?></a></h3>
+                    <p>Sed molestie nisl ac massa lobortis, nec ultrices nunc fringilla. Duis fermentum tempor purus, ut posuere justo placerat et.</p>
+                </div>
+                <div class="more">
+                    <a href="#" class="read-more"><span class="plus">+</span> to the newsroom</a>
+                </div>
+            </div>
+            <? endfor;?>
+        </section>
+
+        <section class="container_12 newsfeed list">
+            <? for($i=1;$i<=4;$i++):?>
+            <div class="item grid_3 mobile_6">
+                <div class="image"><a href="#"><img src="http://placehold.it/220x125"/></a></div>
+                <div class="content">
+                    <h3><a href="#">Mostly a long title of newsmessage numero <?=$i;?></a></h3>
+                    <p>Sed molestie nisl ac massa lobortis, nec ultrices nunc fringilla. Duis fermentum tempor purus, ut posuere justo placerat et.</p>
+                </div>
+                <div class="more">
+                    <a href="#" class="read-more"><span class="plus">+</span> to the newsroom</a>
+                </div>
+            </div>
+            <? endfor;?>
+        </section>
 		
     </body>
  

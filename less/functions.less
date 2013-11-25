@@ -86,9 +86,9 @@
 
 .background-cover() {
 	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
-  	background-size: cover;
+ 	   -moz-background-size: cover;
+ 	     -o-background-size: cover;
+  		    background-size: cover;
 }
 
 
@@ -99,10 +99,18 @@
 
 .transition(@duration:0.2s, @ease:ease-out) {
   -webkit-transition: all @duration @ease;
-  -moz-transition: all @duration @ease;
-  -ms-transition: all @duration @ease;
-  -o-transition: all @duration @ease;
-  transition: all @duration @ease;
+     -moz-transition: all @duration @ease;
+      -ms-transition: all @duration @ease;
+       -o-transition: all @duration @ease;
+  		  transition: all @duration @ease;
+}
+
+.delay(@time:200ms){
+    -webkit-transition-delay: @time;
+       -moz-transition-delay: @time;
+         -o-transition-delay: @time;
+        -ms-transition-delay: @time;
+            transition-delay: @time;
 }
 
 .rotation(@deg:5deg){
