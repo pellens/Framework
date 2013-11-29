@@ -29,8 +29,8 @@
 
         <!-- BLOG: Een avatar koppelen in de Google resultaten op deze manier -->
         <link rel="author" href="https://plus.google.com/<google-id-auteur>/posts"/>
-		
-		<!-- OPEN GRAPH / SOCIAL MEDIA -->
+
+        <!-- OPEN GRAPH / SOCIAL MEDIA -->
         <meta property="fb:app_id"      content="" />
         <meta property="og:title" content="" />
         <meta property="og:type" content="" />
@@ -47,7 +47,7 @@
         <link rel="apple-touch-icon" sizes="76x76"   href="images/core/touch-icon-ipad.png">
         <link rel="apple-touch-icon" sizes="120x120" href="images/core/touch-icon-iphone-retina.png">
         <link rel="apple-touch-icon" sizes="152x152" href="images/core/touch-icon-ipad-retina.png">
-		
+
         <meta name="apple-mobile-web-app-status-bar-style" content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
         <meta name="apple-mobile-web-app-capable" content="" />        <!-- FULL SCREEN?    : yes | no -->
  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
@@ -59,7 +59,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
         <!-- FONT AWESOME -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
