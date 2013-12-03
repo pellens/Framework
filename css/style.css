@@ -1,35 +1,80 @@
 @import url("reset.css");
 @import url("pretify.css");
-.newsfeed.tiles .item {
+.newsfeed.tiles .news-item {
   margin-bottom: 20px;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  *behavior: url(/boxsizing.htc);
 }
-.newsfeed.tiles .item .image {
+.newsfeed.tiles .news-item .image {
   width: 100%;
 }
-.newsfeed.tiles .item .image img {
+.newsfeed.tiles .news-item .image img {
   width: 100%;
   border: none;
   height: auto;
 }
-.newsfeed.tiles .item .content {
+.newsfeed.tiles .news-item .content {
   width: 100%;
 }
-.newsfeed.tiles .item .content h3 {
-  font-family: 'Sintony', sans-serif;
-  font-size: 15px;
+.newsfeed.tiles .news-item .content h3 {
+  font-size: 16px;
   line-height: 20px;
   margin: 5px 0;
 }
-.newsfeed.tiles .item .content h3 a {
-  color: ;
-  text-decoration: none;
-}
-.newsfeed.tiles .item .content p {
-  color: ;
-  font-family: Helvetica;
-  line-height: 20px;
-  font-size: 14px;
+.newsfeed.tiles .news-item .content p {
+  line-height: 18px;
+  font-size: 13px;
   margin-bottom: 10px;
+}
+.newsfeed.tiles.tiles-4 .news-item {
+  width: 25%;
+}
+.newsfeed.list .news-item {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+.newsfeed.list .news-item .image {
+  width: 30%;
+  height: 110px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.newsfeed.list .news-item .image img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -95px;
+  border: none;
+  width: auto;
+}
+.newsfeed.list .news-item .content {
+  float: left;
+  width: 70%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  *behavior: url(/boxsizing.htc);
+}
+.newsfeed.list .news-item .content p {
+  line-height: 17px;
+  font-size: 12px;
+}
+.newsfeed.list .news-item .content h3 {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+.newsfeed.list .news-item .more {
+  line-height: 17px;
+  font-size: 12px;
 }
 * {
   -webkit-appearance: none;
@@ -40,5 +85,5 @@ body {
   height: 100%;
   width: 100%;
   font-family: Helvetica;
-  font-size: 12px;
+  font-size: 13px;
 }

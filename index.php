@@ -57,6 +57,7 @@
         
         <!-- CSS FILES -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/grid/grid-12-responsive.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -80,34 +81,29 @@
     
     <body>
 
-        <section class="container_12 newsfeed tiles">
-            <? for($i=1;$i<=8;$i++):?>
-            <div class="item grid_3 mobile_6">
-                <div class="image"><a href="#"><img src="http://placehold.it/220x125"/></a></div>
-                <div class="content">
-                    <h3><a href="#">Mostly a long title of newsmessage numero <?=$i;?></a></h3>
-                    <p>Sed molestie nisl ac massa lobortis, nec ultrices nunc fringilla. Duis fermentum tempor purus, ut posuere justo placerat et.</p>
-                </div>
-                <div class="more">
-                    <a href="#" class="read-more"><span class="plus">+</span> to the newsroom</a>
-                </div>
-            </div>
-            <? endfor;?>
-        </section>
+        <section class="container_12">
 
-        <section class="container_12 newsfeed list">
-            <? for($i=1;$i<=4;$i++):?>
-            <div class="item grid_3 mobile_6">
-                <div class="image"><a href="#"><img src="http://placehold.it/220x125"/></a></div>
-                <div class="content">
-                    <h3><a href="#">Mostly a long title of newsmessage numero <?=$i;?></a></h3>
-                    <p>Sed molestie nisl ac massa lobortis, nec ultrices nunc fringilla. Duis fermentum tempor purus, ut posuere justo placerat et.</p>
-                </div>
-                <div class="more">
-                    <a href="#" class="read-more"><span class="plus">+</span> to the newsroom</a>
-                </div>
+            <div class="grid_12 mobile_12">
+
+                <section class="newsfeed tiles tiles-4">
+                    <? include("snippets/newsfeed.php");?>
+                </section>
+    
             </div>
-            <? endfor;?>
+
+            <div class="grid_6 mobile_6">
+
+                <section class="newsfeed tiles">
+                    <? include("snippets/newsfeed.php");?>
+                </section>
+    
+            </div>
+
+            <div class="grid_6 mobile_6">
+                <section class="newsfeed list">
+                    <? include("snippets/newsfeed.php");?>
+                </section>
+            </div>
         </section>
 		
     </body>
