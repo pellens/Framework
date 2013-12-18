@@ -20,8 +20,9 @@ Implementation of [Animate CSS](https://github.com/daneden/animate.css) by Danie
 
 ## Polyfills - Box Sizing
 Warning: .htc files not supported on any server! Check this first!
+* boxsizing.htc : place in the root of the server!
+* backgroundsize.htc : place in the root of the server!
+* .htaccess 	: add support to .htc-extensies
+
 More information about [Box Sizing](http://github.com/Schepp/box-sizing-polyfill/).
 More information about [Background Size](https://github.com/louisremi/background-size-polyfill)
-
-* boxsizing.htc : place in the root of the server!
-* .htaccess 	: add support to .htc-extensies
