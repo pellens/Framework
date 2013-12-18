@@ -59,6 +59,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/grid/grid-12-responsive.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
