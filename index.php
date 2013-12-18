@@ -73,9 +73,10 @@
         <script type="text/javascript" charset="utf-8" src="js/core.custom.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/core.general.js"></script>
         
-        <!-- MOSTLY DELETE THESE -->
-        <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
+        <!-- JQUERY PLUGINGS -->
         <script type="text/javascript" charset="utf-8" src="js/jquery.touchswipe.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/pretify.js"></script>
     
     </head>
