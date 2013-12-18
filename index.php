@@ -75,6 +75,7 @@
         
         <!-- MOSTLY DELETE THESE -->
         <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.touchswipe.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/pretify.js"></script>
     
     </head>
