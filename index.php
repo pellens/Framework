@@ -84,30 +84,7 @@
     
     <body>
 
-        <section class="container_12">
 
-            <div class="grid_12 mobile_12">
-
-                <section class="newsfeed tiles tiles-4">
-                    <? include("snippets/newsfeed.php");?>
-                </section>
-    
-            </div>
-
-            <div class="grid_6 mobile_6">
-
-                <section class="newsfeed tiles">
-                    <? include("snippets/newsfeed.php");?>
-                </section>
-    
-            </div>
-
-            <div class="grid_6 mobile_6">
-                <section class="newsfeed list">
-                    <? include("snippets/newsfeed.php");?>
-                </section>
-            </div>
-        </section>
 		
     </body>
  
