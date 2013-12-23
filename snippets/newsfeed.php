@@ -5,7 +5,7 @@
         <h3><a href="#">Mostly a long title of newsmessage numero <?=$i;?></a></h3>
         <p>Sed molestie nisl ac massa lobortis, nec ultrices nunc fringilla. Duis fermentum tempor purus, ut posuere justo placerat et.</p>
         <span class="more">
-            <a href="#" class="read-more"><span class="plus">+</span> to the newsroom</a>
+            <a href="#" class="read-more"><span class="symbol">></span> To newsarticle</a>
         </span>
     </div>
 </article>
