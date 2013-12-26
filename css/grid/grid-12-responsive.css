@@ -59,6 +59,11 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
+  min-height:20px;
+  background-color: #EEE;
+  border-bottom: 1px solid #CCC;
+  padding:5px 0;
+  margin-bottom: 10px;
 }
  
 .push_1, .pull_1,
@@ -460,6 +465,22 @@ body {
   .container_12 .mobile_10 {  }
   .container_12 .mobile_11 {  }
   .container_12 .mobile_11 {  }
+
+  .grid_1  *,
+  .grid_2  *,
+  .grid_3  *,
+  .grid_4  *,
+  .grid_5  *,
+  .grid_6  *,
+  .grid_7  *,
+  .grid_8  *,
+  .grid_9  *,
+  .grid_10 *,
+  .grid_11 *,
+  .grid_12 * {
+    margin-left: 0;
+    margin-right: 0;
+  }
  
 }
  
@@ -518,8 +539,24 @@ body {
   .container_12 .mobile_7  { width:235px; }
   .container_12 .mobile_8  {  }
   .container_12 .mobile_9  {  }
-  .container_12 .mobile_10 {  }
+  .container_12 .mobile_10 { width:340px; }
   .container_12 .mobile_11 {  }
   .container_12 .mobile_11 {  }
+
+  .grid_1  *,
+  .grid_2  *,
+  .grid_3  *,
+  .grid_4  *,
+  .grid_5  *,
+  .grid_6  *,
+  .grid_7  *,
+  .grid_8  *,
+  .grid_9  *,
+  .grid_10 *,
+  .grid_11 *,
+  .grid_12 * {
+    margin-left: 0;
+    margin-right: 0;
+  }
  
 }

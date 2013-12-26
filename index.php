@@ -84,7 +84,30 @@
     
     <body>
 
+        <div class="container_12">
 
+            <div class="grid_2">
+                Left
+            </div>
+
+            <div class="grid_10">
+                <div class="grid_5 alpha">x</div>
+                <div class="grid_5 omega">x</div>
+            </div>
+        </div>
+
+         <div class="container_12">
+
+            <div class="grid_3">
+                Left
+            </div>
+
+            <div class="grid_9">
+                <div class="grid_3 alpha">x</div>
+                <div class="grid_3">x</div>
+                <div class="grid_3 omega">x</div>
+            </div>
+        </div>
 		
     </body>
  
