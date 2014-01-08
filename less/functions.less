@@ -134,6 +134,21 @@
 	zoom: @zoom; /* IE */
 }
 
+.grayscale(@val) {
+	-webkit-filter: grayscale(@val);
+	   -moz-filter: grayscale(@val);
+	    -ms-filter: grayscale(@val);
+	     -o-filter: grayscale(@val);
+	        filter: grayscale(@val);
+}
+
+.sepia(@val) {
+	-webkit-filter: sepia(@val);
+	   -moz-filter: sepia(@val);
+	    -ms-filter: sepia(@val);
+	     -o-filter: sepia(@val);
+	        filter: sepia(@val);
+}
 
 /* Polyfills
 /*---------------------------------------------------*/

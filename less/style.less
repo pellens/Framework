@@ -9,8 +9,9 @@
 @import url("snippet-newsfeed.less");
 
 * {
-	-webkit-appearance: none;
+	/*-webkit-appearance: none;*/
 	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
 } 
 
 html, body {
@@ -18,4 +19,20 @@ html, body {
 	width:100%;
 	font-family: Helvetica;
 	font-size:13px;
+}
+
+/* STICKY FOOTER */
+
+@footerHeight   : 190px;
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -@footerHeight;
+}
+
+footer, .push {
+    height: @footerHeight;
+    .box-sizing();
 }
