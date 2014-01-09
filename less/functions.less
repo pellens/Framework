@@ -134,12 +134,52 @@
 	zoom: @zoom; /* IE */
 }
 
-.grayscale(@val) {
+.grayscale(@val:1) {
 	-webkit-filter: grayscale(@val);
 	   -moz-filter: grayscale(@val);
 	    -ms-filter: grayscale(@val);
 	     -o-filter: grayscale(@val);
 	        filter: grayscale(@val);
+}
+
+.blur(@val:3px) {
+	-webkit-filter: blur(@val);
+	   -moz-filter: blur(@val);
+	    -ms-filter: blur(@val);
+         -o-filter: blur(@val);
+            filter: blur(@val);
+}
+	
+.saturate(@val:500%) {
+	-webkit-filter: saturate(@val);
+	   -moz-filter: saturate(@val);
+	    -ms-filter: saturate(@val);
+         -o-filter: saturate(@val);
+            filter: saturate(@val);
+ }
+
+.invert_color(@val:1) {
+	-webkit-filter: invert(@val);
+	   -moz-filter: invert(@val);
+	    -ms-filter: invert(@val);
+	     -o-filter: invert(@val);
+	        filter: invert(@val);
+}	
+
+.brightness(@val:50%) {
+	-webkit-filter: brightness(@val);
+	   -moz-filter: brightness(@val);
+	    -ms-filter: brightness(@val);
+	     -o-filter: brightness(@val);
+	        filter: brightness(@val);
+}
+
+.contrast(@val:1) {	
+	-webkit-filter: contrast(@val);
+	   -moz-filter: contrast(@val);
+ 	    -ms-filter: contrast(@val);
+	     -o-filter: contrast(@val);
+	        filter: contrast(@val);
 }
 
 .sepia(@val) {
