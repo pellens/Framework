@@ -59,11 +59,6 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  min-height:20px;
-  background-color: #EEE;
-  border-bottom: 1px solid #CCC;
-  padding:5px 0;
-  margin-bottom: 10px;
 }
  
 .push_1, .pull_1,
