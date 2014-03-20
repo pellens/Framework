@@ -1,5 +1,10 @@
 $(document).ready(function(){
+
+	// Placeholder - Crossbrowser support
+	$('input, textarea').placeholder();
+
 	equalizeHeight();
+
 });
 
 $(window).resize(function(){

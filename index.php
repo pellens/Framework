@@ -75,6 +75,7 @@
         <script type="text/javascript" charset="utf-8" src="js/core.general.js"></script>
         
         <!-- JQUERY PLUGINGS -->
+        <script type="text/javascript" charset="utf-8" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery.touchswipe.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery.flexslider.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
