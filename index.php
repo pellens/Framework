@@ -44,9 +44,9 @@
  
         <!-- MOBILE -->
         <link rel="apple-touch-startup-image" href="" />           <!-- START IMAGE     : 320x460px - PNG -->
-        <link rel="apple-touch-icon" sizes="76x76"   href="images/core/touch-icon-ipad.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="images/core/touch-icon-iphone-retina.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="images/core/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-icon" sizes="76x76"   href="">
+        <link rel="apple-touch-icon" sizes="120x120" href="">
+        <link rel="apple-touch-icon" sizes="152x152" href="">
 
         <meta name="apple-mobile-web-app-status-bar-style" content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
         <meta name="apple-mobile-web-app-capable" content="" />        <!-- FULL SCREEN?    : yes | no -->
