@@ -47,10 +47,13 @@
         <link rel="apple-touch-icon" sizes="76x76"   href="">
         <link rel="apple-touch-icon" sizes="120x120" href="">
         <link rel="apple-touch-icon" sizes="152x152" href="">
+<<<<<<< HEAD
 
         <meta name="apple-mobile-web-app-status-bar-style"  content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
         <meta name="apple-mobile-web-app-capable"           content="" />        <!-- FULL SCREEN?    : yes | no -->
         <meta name="HandheldFriendly"                       content="true" />
+=======
+>>>>>>> 679517b347a479edf2bb94a20ab626b7043301d0
 
  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
@@ -77,6 +80,7 @@
         <script type="text/javascript" charset="utf-8" src="js/core.general.js"></script>
         
         <!-- JQUERY PLUGINGS -->
+        <script type="text/javascript" charset="utf-8" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery.touchswipe.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery.flexslider.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
