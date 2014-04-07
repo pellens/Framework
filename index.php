@@ -47,13 +47,10 @@
         <link rel="apple-touch-icon" sizes="76x76"   href="">
         <link rel="apple-touch-icon" sizes="120x120" href="">
         <link rel="apple-touch-icon" sizes="152x152" href="">
-<<<<<<< HEAD
 
         <meta name="apple-mobile-web-app-status-bar-style"  content="" />        <!-- TOOLBAR         : default | black | black-translucent -->
         <meta name="apple-mobile-web-app-capable"           content="" />        <!-- FULL SCREEN?    : yes | no -->
         <meta name="HandheldFriendly"                       content="true" />
-=======
->>>>>>> 679517b347a479edf2bb94a20ab626b7043301d0
 
  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
@@ -62,7 +59,7 @@
         
         <!-- CSS FILES -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        <link rel="stylesheet" type="text/css" href="css/grid/grid-12-responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="css/grid/grid-12-wide-responsive.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/flexslider.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
@@ -90,30 +87,55 @@
     
     <body>
 
-        <div class="container_12">
+        <div class="site-wrapper">
 
-            <div class="grid_2">
-                Left
-            </div>
+            <header>
 
-            <div class="grid_10">
-                <div class="grid_5 alpha">x</div>
-                <div class="grid_5 omega">x</div>
-            </div>
+                <div class="container_12">
+                    <div class="grid_12">
+    
+                        <a href="#" class="off-canvas-menu-trigger">Menu</a>
+        
+                        <nav class="main-navigation">
+                            <ul>
+                                <li><a href="#">Navigatie 1</a></li>
+                                <li><a href="#">Navigatie 2</a></li>
+                                <li><a href="#">Navigatie 3</a></li>
+                                <li><a href="#">Navigatie 4</a></li>
+                            </ul>
+                        </nav>
+    
+                    </div>
+                </div>
+    
+            </header>
+
         </div>
 
-         <div class="container_12">
-
-            <div class="grid_3">
-                Left
+        <footer>
+            <div class="container_12">
+                <div class="grid_12">
+                    Footer content
+                </div>
             </div>
+        </footer>
+    
+        <script>
 
-            <div class="grid_9">
-                <div class="grid_3 alpha">x</div>
-                <div class="grid_3">x</div>
-                <div class="grid_3 omega">x</div>
-            </div>
-        </div>
+            $(document).ready(function(){
+
+                var jPM = $.jPanelMenu({
+                    menu: '.main-navigation',
+                    trigger: '.off-canvas-menu-trigger',
+                    duration: 150,
+                    direction: 'left'
+                });
+
+                jPM.on();
+
+            });
+
+        </script>
 		
     </body>
  

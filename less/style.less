@@ -9,9 +9,11 @@
 @import url("snippet-newsfeed.less");
 
 * {
-	/*-webkit-appearance: none;*/
+	/*
+	-webkit-appearance: none;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: antialiased;
+	*/
 } 
 
 ::-webkit-input-placeholder,
@@ -26,21 +28,48 @@ html, body {
 	height:100%;
 	width:100%;
 	font-family: Helvetica;
-	font-size:13px;
+	font-size:15px;
 }
 
-/* STICKY FOOTER */
+/*--------------------------------------------------
+  STICKY FOOTER
+--------------------------------------------------*/
 
-@footerHeight   : 190px;
+@footerBackgroundColor : #DDD;
+@footerHeight          : 200px;
 
-.wrapper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -@footerHeight;
+.site-wrapper {
+	min-height: 100%;
+	margin-bottom: -@footerHeight;
+}
+.site-wrapper:after {
+  content: "";
+  display: block;
+}
+footer,.site-wrapper:after {
+	height:@footerHeight;
+}
+footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:@footerBackgroundColor;
+	width:100%;
 }
 
-footer, .push {
-    height: @footerHeight;
-    .box-sizing();
+body {
+	background-color: #EEE;
+}
+
+a {
+	color: #3498db;
+}
+
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12 {
+	background:#FFF;
+	margin-top: 10px;
+}
+
+#jPanelMenu-menu {
+	background: #222;
 }
