@@ -58,27 +58,27 @@
         <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         
         <!-- CSS FILES -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/grid/grid-12-wide-responsive.css"/>
-        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/flexslider.css"/>
         <link rel="stylesheet" type="text/css" href="css/shame.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
         <!-- FONT AWESOME -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
  
         <!-- LATEST JQUERY + MODERNIZR -->
-        <script type="text/javascript" charset="utf-8" src="js/jquery.1.9.0.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/modernizr.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/core.custom.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/core.general.js"></script>
         
         <!-- JQUERY PLUGINGS -->
-        <script type="text/javascript" charset="utf-8" src="js/jquery.placeholder.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/jquery.touchswipe.min.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.0.7/jquery.placeholder.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.2/jquery.flexslider-min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jpanelmenu.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/pretify.js"></script>
     
