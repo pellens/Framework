@@ -72,6 +72,7 @@
         <script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/core.custom.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/core.general.js"></script>
         
