@@ -67,7 +67,6 @@
 
         <!-- FONT AWESOME -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <!--[if IE 7]><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome-ie7.min.css"><![endif]-->
  
         <!-- LATEST JQUERY + MODERNIZR -->
         <script type="text/javascript" charset="utf-8" src="js/jquery.1.9.0.js"></script>
